@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.105.99.30:3306/hzmanagement?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: yxf
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 6001
